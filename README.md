@@ -1,4 +1,4 @@
-Fetch Rewards Coding Exercise - David Ward
+#Fetch Rewards Coding Exercise - David Ward
 
 
 I completed this assignment using C# on .NET 6.0.
@@ -25,6 +25,6 @@ The swagger page is helpful for showing the routes and sample JSON values.
 
 The supported requests are:
 
-GET /api/Balances
-POST /api/Spends
-POST /api/Transactions
+GET /api/Balances  
+POST /api/Spends  
+POST /api/Transactions  
