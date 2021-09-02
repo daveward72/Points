@@ -4,6 +4,12 @@ using Points.Models;
 namespace Points.DTOs;
 public class PointsAppliedDTO
 {
+    public PointsAppliedDTO()
+    {
+        this.Payer = string.Empty;
+        this.Points = 0;
+    }
+
     public string Payer { get; set; }
 
     public int Points { get; set; }

@@ -2,6 +2,13 @@
 namespace Points.Models;
 public class PointsEntry
 {
+    public PointsEntry()
+    {
+        this.Payer = string.Empty;
+        this.AcquiredDate = DateTime.MinValue;
+        this.PointBalance = 0;
+    }
+
     public string Payer { get; set; }
 
     public DateTime AcquiredDate { get; set; }

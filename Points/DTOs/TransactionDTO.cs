@@ -4,6 +4,13 @@ using Points.Models;
 namespace Points.DTOs;
 public class TransactionDTO
 {
+    public TransactionDTO()
+    {
+        this.Payer = string.Empty;
+        this.Points = 0;
+        this.Timestamp = DateTime.MinValue;
+    }
+
     public string Payer { get; set; }
 
     public int Points { get; set; }

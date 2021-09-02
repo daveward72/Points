@@ -2,6 +2,12 @@
 namespace Points.Models;
 public class Transaction
 {
+    public Transaction()
+    {
+        this.Payer = string.Empty;
+        this.Points = 0;
+        this.Timestamp = DateTime.MinValue;
+    }
     public string Payer { get; set; }
 
     public int Points { get; set; }
