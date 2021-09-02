@@ -1,4 +1,4 @@
-#Fetch Rewards Coding Exercise - David Ward
+# Fetch Rewards Coding Exercise - David Ward
 
 
 I completed this assignment using C# on .NET 6.0.
@@ -6,16 +6,16 @@ I completed this assignment using C# on .NET 6.0.
 .NET 6.0 is in a preview release. In order to run it you must first download and install the .NET SDK:
 https://dotnet.microsoft.com/download/dotnet/6.0
 
-It can be installed for Windows, macOS or Linux.
+It can be installed for Windows, macOS or Linux. I used 6.0.0-preview.7.
 
 To run the web service, first clone the repository from github.
 
 Then you will need to navigate locally to \Fetch\Points\Points
 
-Run this on the command line:
+Run this on the command line:  
 dotnet run
 
-This will host the service on localhost.
+This will start up and host the service on localhost.
 https://localhost:5001/api is the endpoint.
 
 You can also navigate to swagger for testing the service:
