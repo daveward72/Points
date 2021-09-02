@@ -2,7 +2,7 @@
 namespace Points.Models;
 public class Account
 {
-    private readonly object accountDataUpdateLock = new object();
+    private static readonly object accountDataUpdateLock = new object();
 
     private List<Transaction> transactionHistory = new List<Transaction>();
     private List<PointsEntry> pointsEntries = new List<PointsEntry>();
