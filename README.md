@@ -1,4 +1,4 @@
-# Fetch Rewards Coding Exercise - David Ward
+# API Coding Exercise - David Ward
 
 
 I completed this assignment using C# on .NET 6.0.
